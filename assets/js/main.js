@@ -14,3 +14,25 @@ modal.addEventListener("click", () => {
   modal.style.display = "none";
 });
 
+function reveal() {
+
+  const reveals = document.querySelectorAll(".reveal");
+
+  reveals.forEach(item => {
+
+    const windowHeight = window.innerHeight;
+    const elementTop = item.getBoundingClientRect().top;
+
+    if (elementTop < windowHeight - 100) {
+      item.classList.add("active");
+    }
+
+  });
+
+}
+
+window.addEventListener("scroll", reveal);
+
+reveal();
+
+
