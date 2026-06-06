@@ -1,0 +1,45 @@
+body{
+  background:#050505;
+  color:white;
+  font-family:Inter,sans-serif;
+  margin:0;
+  padding:20px;
+}
+
+.dev-container{
+  max-width:900px;
+  margin:auto;
+}
+
+h1{
+  text-align:center;
+  color:#ff006e;
+}
+
+.subtitle{
+  text-align:center;
+  color:#999;
+  margin-bottom:30px;
+}
+
+.dev-card{
+  background:#111;
+  border:1px solid #222;
+  border-radius:20px;
+  padding:25px;
+  margin-bottom:20px;
+}
+
+.dev-card h2{
+  color:#ff006e;
+}
+
+.back-btn{
+  display:inline-block;
+  text-decoration:none;
+  background:#ff006e;
+  color:white;
+  padding:12px 20px;
+  border-radius:12px;
+}
+
