@@ -374,3 +374,29 @@ footer h3{
   color:#ff006e;
 }
 
+.projects{
+  margin-top:60px;
+}
+
+.project-card{
+  background:#111;
+  border:1px solid #222;
+  border-radius:20px;
+  overflow:hidden;
+  margin-top:20px;
+}
+
+.project-card img{
+  width:100%;
+  display:block;
+}
+
+.project-card h3{
+  padding:15px 20px 0;
+}
+
+.project-card p{
+  padding:0 20px 20px;
+  color:#aaa;
+}
+
